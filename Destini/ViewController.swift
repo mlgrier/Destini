@@ -47,7 +47,15 @@ class ViewController: UIViewController {
     
     // User presses one of the buttons
     @IBAction func buttonPressed(_ sender: UIButton) {
-    
+        
+        if sender.tag == 1 {
+            
+        }
+        
+        else if sender.tag == 2 {
+            
+        }
+
         // TODO Step 4: Write an IF-Statement to update the views
                 
         // TODO Step 6: Modify the IF-Statement to complete the story
